@@ -10,6 +10,7 @@ import time
 def videoreciver():
     s= socket.socket()
     #Server IP 
+    #public ip of server host
     ip="65.0.29.91"
     # Port on which User connect and recv data
     recv_port=4444
